@@ -1,0 +1,61 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Sociatyacc.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            margin-left: 23px;
+            margin-top: 23px;
+        }
+        .auto-style2 {
+            margin-top: 19px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server" style="font-size: 55px">
+        <div style="border-style: double; background-color: #CCFFFF; font-size: 60px;">
+            <asp:Image ID="Image1" runat="server" ImageUrl="~/images/logo.png" Width="141px" CssClass="auto-style1" Height="65px" />
+&nbsp;Society Management and Accounting System</div>
+        <div style="font-size: 30px">
+            <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Home.aspx" ForeColor="#0000CC">Home</asp:HyperLink>
+&nbsp;&nbsp;&nbsp;
+            <asp:HyperLink ID="HyperLink7" runat="server" NavigateUrl="~/society.aspx" ForeColor="#0000CC">About Society</asp:HyperLink>
+&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/flat.aspx" ForeColor="#0000CC">flat information</asp:HyperLink>
+&nbsp;&nbsp;&nbsp;
+            <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/maintainance.aspx" ForeColor="#0000CC">Maintenance</asp:HyperLink>
+&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/owner.aspx" ForeColor="#0000CC">Owner info</asp:HyperLink>
+&nbsp;&nbsp;&nbsp;
+            <asp:HyperLink ID="HyperLink5" runat="server" NavigateUrl="~/tenent.aspx" ForeColor="#0000CC">tenent info</asp:HyperLink>
+&nbsp;&nbsp;
+            <asp:HyperLink ID="HyperLink6" runat="server" NavigateUrl="~/vendor.aspx" ForeColor="#0000CC">Vendor</asp:HyperLink>
+        &nbsp;</div>
+        <div style="font-size: 25px">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+   <div style="font-size: 25px; color: #FFFFFF; background-color: #000000;"> &nbsp;<asp:Image ID="Image2" runat="server" CssClass="auto-style2" Height="45px" ImageUrl="~/images/logo.png" Width="127px" />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; useful links&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       <br />
+       About Us&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       <asp:HyperLink ID="HyperLink8" runat="server" ForeColor="White" NavigateUrl="~/society.aspx">Society</asp:HyperLink>
+&nbsp;&nbsp;&nbsp;&nbsp;
+       <br />
+       Welcome to our Society Website.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       <asp:HyperLink ID="HyperLink9" runat="server" ForeColor="White" NavigateUrl="~/flat.aspx">flat info</asp:HyperLink>
+       <br />
+       A unique website that can manage society.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       <asp:HyperLink ID="HyperLink10" runat="server" ForeColor="White" NavigateUrl="~/maintainance.aspx">maintenance</asp:HyperLink>
+       <br />
+        </div>
+       </form>
+    
+</body>
+</html>
